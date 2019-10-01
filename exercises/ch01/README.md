@@ -1,0 +1,4 @@
+    
+    bximage -hd=60M -imgmode=flat -mode=create -q hd60M.img
+
+    bochs -f bochsrc-sample.txt
