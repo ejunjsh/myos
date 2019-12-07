@@ -8,7 +8,10 @@ all exercises is running in macos and please install `bochs` and `nasm` before
 
     brew install bochs nasm
 
-https://github.com/cfenollosa/os-tutorial/tree/master/11-kernel-crosscompiler
+from `ch05`, need a i386-gcc to build kernel, so install `i386-elf-binutils` and `i386-elf-gcc`
+
+    brew tap nativeos/i386-elf-toolchain 
+    brew install i386-elf-binutils i386-elf-gcc
 
 
 ## reference
