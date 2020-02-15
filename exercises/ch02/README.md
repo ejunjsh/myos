@@ -6,3 +6,5 @@
     dd if=mbr.bin of=hd60M.img bs=512 count=1 conv=notrunc
 
     bochs -f bochsrc-sample.txt
+
+![](https://raw.githubusercontent.com/ejunjsh/myos/master/exercises/ch02/ScreenShot.png)
