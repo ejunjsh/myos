@@ -3,4 +3,5 @@
 
     bochs -f bochsrc-sample.txt
 
-    ![](https://raw.githubusercontent.com/ejunjsh/myos/master/exercises/ch01/ScreenShot.png)
+
+![](https://raw.githubusercontent.com/ejunjsh/myos/master/exercises/ch01/ScreenShot.png)
