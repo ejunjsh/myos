@@ -10,3 +10,5 @@
     dd if=loader.bin of=hd60M.img bs=512 seek=2 count=1 conv=notrunc
 
     bochs -f bochsrc-sample.txt
+
+![](https://raw.githubusercontent.com/ejunjsh/myos/master/exercises/ch03/ScreenShot.png)
