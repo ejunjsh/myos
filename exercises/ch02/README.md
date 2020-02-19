@@ -1,4 +1,5 @@
-    
+# 02 编写MBR  
+
     nasm -o mbr.bin mbr.S
 
     bximage -hd=60M -imgmode=flat -mode=create -q hd60M.img

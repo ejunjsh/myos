@@ -1,4 +1,5 @@
-    
+ # 03 完善MBR  
+
     nasm -I include -o mbr.bin mbr.S
 
     nasm -I include -o loader.bin loader.S
