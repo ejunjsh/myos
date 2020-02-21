@@ -1,4 +1,5 @@
-    
+# 05 保护模式进阶
+
     nasm -I include -o mbr.bin mbr.S
 
     nasm -I include -o loader.bin loader.S
@@ -16,3 +17,5 @@
     dd if=kernel/kernel.bin of=hd60M.img bs=512 count=200 seek=9 conv=notrunc 
 
     bochs -f bochsrc-sample.txt
+
+![](https://raw.githubusercontent.com/ejunjsh/myos/master/exercises/ch05/ScreenShot.png)

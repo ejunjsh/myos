@@ -12,4 +12,4 @@
 
     bochs -f bochsrc-sample.txt
 
-![](https://raw.githubusercontent.com/ejunjsh/myos/master/exercises/ch03/ScreenShot.png)
+![](https://raw.githubusercontent.com/ejunjsh/myos/master/exercises/ch04/ScreenShot.png)
