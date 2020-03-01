@@ -35,6 +35,10 @@ int main(void) {
         while(1);
      }
   }
+  sys_close(fd);
+  fd = sys_open("/helloworld.txt", O_CREAT|O_RDWR);
+  sys_write(fd, "hello world\n", 12);
+  sys_close(fd);
   sys_free(prog_buf);
 /*************    写入应用程序结束   *************/
    cls_screen();
